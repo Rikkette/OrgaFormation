@@ -1,0 +1,103 @@
+/*------------------------------ Responsive --------------------------*/
+/* Large screen */
+@media screen and (min-width: 992px) {}
+
+/* Medium screen  */
+@media screen and (min-width: 768px) {}
+
+/* Small screen */
+@media screen and (min-width: 600px) {}
+
+/* Extra small */
+@media screen and (max-width: 600px) {}
+
+/*------------------------------ fin Responsive ----------------------*/
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*-------------------------- titre principale ---------------------------*/
+
+h1 {
+    font-family: Pacifico, sans-serif;
+    color: #64cc14;
+    font-size: 300%;
+    text-align: center;
+    margin: 0;
+}
+
+/*-------------------------- agencement logo ---------------------------*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-container img.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+/*----------------- liens de recherche clickable + couleur ---------------*/
+
+a:link {
+    color: white;
+}
+
+h2 {
+    background-color: #33353b;
+    width: 100%;
+    color: white;
+    text-indent: 10px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*-------------------------- titre secondaire ---------------------------*/
+
+h3 {
+    font-family: Pacifico, sans-serif;
+    color: white;
+    background-color: #64cc14;
+    text-align: justify;
+    text-indent: 10px; /*espace entre la fenetre et le titre */
+    margin: 0;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------------------- paragraphe blabla ---------------------------*/
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+}
+
+/*-------------------------- Acceuil & Contact ---------------------------*/
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: gray;
+    text-align: right;
+}
+
+footer h4 a:link,
+footer h4 a:visited {
+    color: gray;
+    text-decoration: none;
+}
